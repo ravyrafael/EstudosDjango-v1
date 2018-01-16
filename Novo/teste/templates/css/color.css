@@ -1,0 +1,728 @@
+.breadcrumb-wrap {
+  background-color: #f5f5f5;
+}
+.breadcrumb{ 
+  background-color: transparent;
+} 
+
+.breadcrumb a{
+  color:#303030; 
+}
+.sidebar .nav > li > a {
+  color: #636363;
+}  
+
+.sidebar h2,
+.sidebar h3 {
+  color:#ffffff;
+}
+.follow-links li a {
+  color:#4D4D4D;
+}
+.follow-links.follow-texts li{
+  background-color:#F9F4F1;
+}
+.follow-links.follow-texts li .fa{ 
+  background: #F5EAE6;
+}  
+.blog-detail-v2 .comment-heading {
+  border-color: #eeeeee;
+  background-color: #dddddd;
+}
+.content-light-blue {
+  background-color: #ffffff;
+}
+
+.content-light-blue .content-boxes .top-header .title {
+  color: #3a3d41;
+}
+
+.content-light-blue .content-boxes .top-header .description {
+  color: #3a3d41;
+}
+
+.content-light-blue .content-box ul li {
+  color: #3a3d41;
+}
+
+.content-light-blue  .content-boxes .content-box {
+  border-top-color: #ebebeb;
+}
+
+.content-light-blue  .content-boxes  .content-box  .icon-circle {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+.footer-green-medium {
+  color: #ffffff;
+  background: #1d967d;
+}
+
+.footer-green-medium .footer-menu ul li a,
+.footer-green-medium h1,
+.footer-green-medium h2,
+.footer-green-medium h3,
+.footer-green-medium h4,
+.footer-green-medium h5,
+.footer-green-medium h6 {
+  color: #ffffff;
+}  
+/*--------------------------------------------------------------------------*/
+/*-----------------  Begins : style guide / header fresh way  --------------*/
+/*--------------------------------------------------------------------------*/
+.navbar-default .btn-default {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-color: #ffffff;
+}
+
+.btn-default {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-color: #1d967d;
+}
+
+.btn-default:hover {
+  color: #ffffff;
+  background-color: #127460;
+  border-color: #1d967d;
+}
+
+h1, h2, h3  {
+  color: #1d967d;
+}
+
+h4, h5, h6 {
+  color: #4b4b4b;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555555;
+  background-color: #bbdfd8;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #555555;
+  background-color: #bbdfd8;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #bbdfd8;
+}
+
+.navbar-default {
+  background-color: #1d967d !important;
+}
+
+.navbar-inverse {
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #bbdfd8;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #bbdfd8;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #bbdfd8;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-inverse  .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.btn-default.disabled {
+  background-color: #FFFFFF;
+  border-color: #1d967d;
+}
+
+.btn-primary.disabled {
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #bbdfd8;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #bbdfd8;
+}
+
+blockquote {
+  border-left-color: #bbdfd8;
+}
+
+blockquote.pull-right {
+  border-right-color: #bbdfd8;
+}
+
+.well {
+  background-color: #bbdfd8;
+  border-color: #1d967d;
+}
+
+.breadcrumb .fa {
+  color: #4b4b4b;
+}
+
+.breadcrumb a {
+  color: #303030;
+}
+
+.breadcrumb > .active {
+  color: #1d967d;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #FFFFFF;
+  background-color: #1d967d;
+}
+
+.nav-pills > .active > a > .badge {
+  color: #FFFFFF;
+  background-color: #127460;
+}
+
+.badge {
+  color: #FFFFFF;
+  background-color: #127460;
+}
+
+.nav-pills > li > a:hover{
+  background-color: #bbdfd8;
+}
+
+.progress {
+  background-color: #bbdfd8;
+  border: transparent;
+}
+
+.jumbotron {
+  background-color: #bbdfd8;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #bbdfd8;
+}
+
+.pagination > .active > a {
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.pagination > .active > a:hover {
+  background-color: #127460;
+  border-color: #127460;
+}
+
+.pagination > li > a:hover {
+  background-color: #bbdfd8;
+}
+
+.pager > li > a:hover {
+  background-color: #bbdfd8;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #127460;
+  border-color: #127460;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover, 
+.list-group-item.active:focus {
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.list-group-item {
+  background-color: #FFFFFF;
+  border-color: #1d967d;
+}
+
+.list-group-item:hover{
+  background-color: #bbdfd8;
+}
+
+a.list-group-item:hover{
+  background-color: #bbdfd8;
+}
+
+.panel-default {
+  border-color: #1d967d;
+}
+
+.panel-primary>.panel-heading {
+  color: #ffffff;
+  background-color: #1d967d;
+  border-color: #1d967d;
+}
+
+.panel-primary {
+  border-color: #1d967d;
+}
+
+.label-primary {
+  background-color: #1d967d; 
+}
+
+.panel-default>.panel-heading {
+  color: #333333;
+  background-color: #bbdfd8;
+  border-color: #bbdfd8;
+}
+
+.panel-footer {
+  background-color: #bbdfd8;
+  border-top-color: #bbdfd8;
+}
+.sidebar .block {
+  background-color: #dcede9;
+}
+.sidebar h2,
+.sidebar h3 {
+  background-color:#1d967d;
+}
+/*--------------------------------------------------------------------------*/
+/*-----------------  End : style guide / header fresh way  -----------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Header / Header Fresh way  ------------------------*/
+/*--------------------------------------------------------------------------*/ 
+.header-freshway-menu .navbar-inverse .navbar-toggle {
+ border-color: #1E967D;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-toggle:hover {
+  background-color: #1E967D;
+  border-color: #1E967D;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.header-freshway-menu .navbar-toggle:hover {
+  background-color:#1E967D;
+}
+
+.header-freshway-menu .navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none;
+}
+
+.header-freshway-menu nav.affix{
+  background-color: #1E967D;
+}
+
+.header-freshway-menu .navbar-inverse #navigation {
+  background: #1E967D;
+}
+
+.header-freshway-content  .main-desc{
+  color: #ffffff;
+}
+
+.header-freshway-content  .main-title {
+  color: #ffffff;
+}
+
+.header-freshway-content  .email-field {
+  border-color: #ffffff;
+}
+
+.header-freshway-content  .subscribe-button {
+  background: #1E967D;
+  border-color: #1E967D;
+  color: #ffffff;
+}  
+
+.header-freshway-menu .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.header-freshway-menu  .navbar-nav>li>a:focus, 
+.header-freshway-menu  .navbar-nav>li>a:hover {
+  color: #000000;
+}
+
+.header-freshway-menu  .navbar-nav .dropdown li a:hover {
+  color: #1E967D;
+}
+
+.header-freshway-menu  .navbar-toggle .icon-bar {
+  background:#ffffff;
+}
+
+.header-freshway-menu  .navbar-toggle {
+  background: transparent;
+  color: #ffffff;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a {
+  background-image: none;
+ -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  color: #000000;
+  background-color: transparent;
+}
+
+.header-freshway-menu .navbar-scrolled {
+    background-color:  #1d967d;
+    background-image: none;
+	height: 60px;
+    border-radius: 0px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Header / Header Fresh way  ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+/* CSS from jquery-asProgress.js library*/
+.progress {
+  background-color: #f7f7f7;
+  border-color: #eeeeee;
+}
+
+.progress__bar {
+  background-color: #5bc0de;
+}
+
+.progress__label {
+  color: #ffffff;
+}
+
+.progress--success .progress__bar {
+  background-color: #43ac6a;
+}
+
+.progress--alert .progress__bar {
+  background-color: #f04124;
+}
+
+/*custom*/
+
+.stat-stats-green-sea h2.title {
+  color: #1d967d;
+}
+
+.stat-stats-green-sea .stat-label {  
+  color: #ffffff;
+  background-color: #1d967d;
+}  
+
+.stat-stats-green-sea .progress {
+  background-color: #72D5C1;
+}
+
+.stat-stats-green-sea .stat-running-number {  
+  color: #ffffff;
+}  
+
+.stat-stats-green-sea .progress__bar {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+
+.stat-stats-green-sea .stat-inner {
+  background-color: #1CBB9B;
+}
+ 
+.stat-stats-green-sea .stat-desc {
+  color: #4b4b4b;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------  Ends : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Testimonial / Testimonial grey black  -------------*/
+/*--------------------------------------------------------------------------*/
+.testimonial-grey-black {
+  background: #ffffff;
+}
+.testimonial-grey-black h2 {
+  color: #1d967d;
+}
+.testimonial-grey-black .testi-body {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+
+.testimonial-grey-black .testi-name {
+  color: #1d967d;
+}
+
+.testimonial-grey-black .carousel-control .fa {
+  color: #A3A3A3;
+}
+
+.testimonial-grey-black .carousel-control:hover .fa {
+  color: #1d967d;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Testimonial / Testimonial grey black  ----------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*----------------------  Begins : Team / Team Green -----------------------*/
+/*--------------------------------------------------------------------------*/
+.team-green {
+  background-color: #ffffff;
+}
+
+body .team-green {
+  color: #4b4b4b;
+}
+
+.team-green .team-header {
+  color: #ffffff;
+}
+
+.team-green .team-header h2 {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+
+.team-green .team-header .desc {
+  background-color: #f7f7f7;
+  color: #4b4b4b;
+}
+
+.team-green .item:hover .team-content {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+
+.team-green .team-name{
+  color: #1d967d;
+}
+
+.team-green .item:hover .team-name{
+  color: #ffffff;
+}
+
+.team-green .team-social a{
+  color: #B5B5B5;
+  background-color: #EEEEEE;
+}
+
+.team-green .team-social li:hover a{
+  color: #ffffff;
+  background-color: #1d967d;
+}
+
+.mobile-carousel-controls span {
+  color: #ffffff;
+  background-color: #1d967d;
+}
+
+.mobile-carousel-controls span:hover {
+  background-color: #353535;
+  color: #ffffff;
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------  End : Team / Team Green  -------------------------*/
+/*--------------------------------------------------------------------------*/
+ /*--------------------------------------------------------------------------*/
+/*------------  Begins : Contact / Contact Green  --------------------------*/
+/*--------------------------------------------------------------------------*/
+.contact-green {
+  background-color: #1CBB9B;
+  color: #ffffff;
+}
+
+.contact-green .form-control {
+  background-color: #1CBB9B;
+  border-color: #ffffff;
+}
+
+.contact-green .btn {
+  background-color: #ffffff;
+  color: #1CBB9B;
+}
+
+.contact-green address span a,
+.contact-green address span a:hover,
+.contact-green address span a:visited,
+.contact-green h1,
+.contact-green h2,
+.contact-green h3,
+.contact-green h4,
+.contact-green h5,
+.contact-green h6 {
+  color: #ffffff;
+}
+
+.contact-green .form-control {
+  color: #ffffff;
+}
+
+.contact-green  .input-lg::-webkit-input-placeholder{
+  color: #ffffff;
+}
+
+.contact-green .input-lg:-moz-placeholder  {
+  color: #ffffff;
+}
+
+.contact-green .input-lg::-moz-placeholder {
+  color: #ffffff;
+}
+
+.contact-green .input-lg:-ms-input-placeholder {
+  color: #ffffff;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Contact / Contact Green  -----------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : PriceTable / Price table green  -------------------*/
+/*--------------------------------------------------------------------------*/
+.price-pricetable-green {
+  background-color: #ffffff;
+}
+
+.price-pricetable-green h2 {
+  color: #1d967d;
+}
+.price-pricetable-green .price-box {
+  background-color: #EBECEE;
+  color: #34465C;
+}  
+.price-pricetable-green .price-box:hover {
+  background-color: #1d967d;
+  color: #EBECEE;
+}
+.price-pricetable-green .price-box:hover h3 {
+  color: #EBECEE;
+}
+.price-pricetable-green .price-box:hover .price-features-list li .fa {
+  color: #ffffff;
+}
+
+.price-pricetable-green .price-box:hover .btn {
+  background-color: #EBECEE;
+  color: #13BC99;
+}  
+
+.price-pricetable-green .price-features-list li .fa {
+  color: #13BC99;
+}  
+
+.price-pricetable-green .btn {
+  background-color: #EBECEE;
+  color: #1d967d;
+  border-color: #1d967d;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : PriceTable / Price table green  ----------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Blognews / Blog Green  ----------------------------*/
+/*--------------------------------------------------------------------------*/
+.blog-green {
+  background-color: #EEEEEE;
+}
+
+.blog-green .blog-item {
+  background: #EEEEEE;
+  border-color:  #EEEEEE;
+}
+
+.blog-green .blog-box-item-inner {
+  background: #ffffff;
+}
+
+.blog-green  h2 {
+  color: #1d967d;
+}
+
+.blog-green .blog-readmore a{
+  color: #353535;
+}
+
+.blog-green .blog-title {
+  color: #1d967d;
+}
+
+.blog-green .posted-date {
+  background-color: #1d967d;
+  color: #ffffff;
+}
+
+.blog-green .descrip {
+  color: #595959;
+}
+
+.blog-green .descrip a {
+  color: #1d967d;
+}
+
+.blog-green .meta-info {
+  color: #343434;
+}
+
+.blog-green .author {
+  color: #343434;
+}
+
+.blog-green .comments-count {
+  color: #343434;
+}
+
+.blog-green .mobile-carousel-controls span {
+  color: #ffffff;
+  background-color: #16BD98;
+}
+
+.blog-green .mobile-carousel-controls span:hover {
+  background-color: #353535;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Blognews / Blog Green  -------------------------------*/
+/*--------------------------------------------------------------------------*/
+ 
+ 
