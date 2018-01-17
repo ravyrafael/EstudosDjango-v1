@@ -1,0 +1,488 @@
+@media (min-width: 768px) and (max-width: 1169px) {
+
+.content-light-blue .content-boxes .content-box .icon-circle {
+  border-radius: 26px;
+  font-size: 1.6em;
+  height: 52px;
+  line-height: 54px;
+  width: 52px;
+}
+
+.content-light-blue  .content-boxes  .content-lists  .icon-circle {
+  border-radius: 13px;
+  font-size: 0.90em;
+  height: 26px;
+  line-height: 26px;
+  margin-right: 10px;
+  width: 26px;
+}
+
+.content-light-blue .content-box ul li {
+  font-size: 1.1em;
+  padding-bottom: 13px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.content-light-blue {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.content-light-blue .content-boxes .top-header .title {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.content-light-blue .content-boxes .top-header .description {
+  margin-left: 10px;
+  margin-bottom: 11px;
+}
+
+.content-light-blue .content-boxes .content-box .icon-circle {
+  border-radius: 25px;
+  font-size: 1.5em;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.content-light-blue .content-box  .description {
+  margin-bottom: 10px;
+}
+
+.content-light-blue .content-boxes .content-box {
+  margin-top: 5px;
+}
+
+.content-light-blue .content-boxes .content-lists .icon-circle {
+  border-radius: 10px;
+  font-size: 0.90em;
+  height: 20px;
+  line-height: 21px;
+  margin-top: 7px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.content-light-blue .content-box ul li {
+  font-size: 1em;
+  padding-bottom: 12px;
+}
+
+}@media (max-width: 767px) {
+
+.footer-green-medium {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer-green-medium .footer-blocks .title h2, .footer-green-medium .footer-blocks .block-title {
+  margin-bottom: 0px;  
+  margin-top: 10px; 
+ }
+ 
+.footer-green-medium .footer-message .block-content h4 {
+    font-size: 1.2em;
+}
+ 
+.footer-green-medium .footer-copyright .block-content,
+.footer-green-medium .footer-message .block-content {
+  text-align: center;   
+ }
+ 
+ .footer-green-medium .footer-blocks .footer-menu .sidebar-menu {
+  padding-top: 0px;
+}
+
+.footer-green-medium .footer-message {
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.footer-green-medium .footer-blocks .footer-menus {
+  text-align: center;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Header / Header Fresh way  ------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  
+.header-freshway-menu .navbar-toggle {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.header-freshway-menu ul.navbar-nav {
+  background-color: #1E967D;
+  border-color: #1E967D;  
+}
+
+.header-freshway-menu .navbar-nav > li > a {
+  border-right: none;
+  padding: 10px;
+}
+
+.header-freshway-menu .navbar-nav > li > a:hover{
+  color:#ffffff; 
+}
+
+.header-freshway-menu .dropdown-menu>li>a,
+.header-freshway-menu .dropdown-menu>li>a:hover,
+.header-freshway-menu .dropdown-menu>li>a.active,
+.header-freshway-menu #navigation ul > li .active {
+  padding: 10px;
+  color: #ffffff;
+  text-transform: uppercase;    
+}
+
+.header-freshway-content .main-title {
+  font-size: 2.5em;
+}
+
+.header-freshway-content .main-desc {
+  font-size: 1.3em;
+}
+  
+.header-freshway-content  .email-field {
+  width: 90%;
+  margin-top: 25px;
+  margin-left: 0px;
+  display: inline;
+}
+
+.header-freshway-content  .subscribe-button {
+  width: 90%;
+  margin-top: 25px;
+  margin-left:0px;
+}
+
+.header-freshway-menu .navbar-inverse #navigation {
+  width: 90%;
+}
+
+.header-freshway-menu  .navbar-nav>li>a:focus, 
+.header-freshway-menu  .navbar-nav>li>a:hover {
+  color: #000000;
+}
+
+.header-freshway-menu .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #eee;
+  border-color: #ffffff;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-toggle:focus {
+  background-color: #1E967D;
+  border-color: #1E967D;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Header / Header Fresh way  ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+/* CSS from jquery-asProgress.js library*/
+@media (max-width: 768px) { 
+ 
+ .stat-stats-green-sea {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+ 
+ 
+.stat-stats-green-sea .stat-stat{
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.stat-stats-green-sea .title,
+.stat-stats-green-sea .stat-desc {
+  text-align: center;
+}
+
+ }
+/*--------------------------------------------------------------------------*/
+/*--------------  Ends : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Testimonial / Testimonial grey black  -------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) { 
+
+.testimonial-grey-black {
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+
+.testimonial-grey-black .testi-arrow {
+  display: none;
+}
+
+.testimonial-grey-black .testi-body-wrap {
+  display: block;
+  float: left;
+}
+
+.testimonial-grey-black h2 { 
+  padding-bottom: 12px;
+} 
+
+.testimonial-grey-black .testi-name-designation {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  float: right;
+  width: 100%;
+}
+
+.testimonial-grey-black .testi-body {
+  width: 100%;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testimonial-grey-black .carousel-control  {
+  font-size: 25px;
+}
+
+.testimonial-grey-black  .carousel-control.right {
+  right: 48%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 30px;
+  /* background: orange !important; */
+  top: auto;
+}
+
+.testimonial-grey-black  .carousel-control.left {
+  right: 52%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 30px;
+  /* background: orange !important; */
+  top: auto;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Testimonial / Testimonial grey black  ----------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*----------------------  Begins : Team / Team Green -----------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) {  
+
+.team-green {
+  padding-top: 31px;
+  padding-bottom: 0px;
+}
+
+.team-green .team-header h2 {
+  padding: 0px;
+  font-size: 23px;
+  padding: 8px 15px;
+}
+
+.team-green .team-header .desc {
+  font-size: 14px;
+  padding: 10px 12px;
+}
+
+.team-dark-green  .carousel-inner {
+  padding-bottom: 100px;
+}
+
+.team-dark-green  .carousel-inner .item {
+  margin: 0;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {  
+
+.team-green .team-header .desc {
+  padding: 3px 15px;
+}
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {  
+
+.team-green .team-header h2 {
+  padding: 26px;
+  padding-left: 36px;
+}
+
+.team-green .team-designation {
+  padding-left: 0px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------  End : Team / Team Green  -------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Contact / Contact Green  --------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+
+.contact-green {
+  padding-top: 26px;
+  padding-bottom: 40px;
+}
+
+.contact-green .btn {
+  font-size: 22px;
+  padding: 4px 15px;
+}
+
+.contact-green .btn,
+.contact-green .google-map-wrap,
+.contact-green .google-map-wrap  #gmap_canvas{
+  width: 100%;
+}
+
+.contact-green .contact-adddress {
+  margin-top: 70px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Contact / Contact Green  -----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : PriceTable / Price table green  -------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px){ 
+
+.price-pricetable-green{
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.price-pricetable-green h2 {
+  font-size: 34px;
+}
+
+.price-pricetable-green .price-desc {
+  margin-top: 10px;
+}
+
+.price-pricetable-green .price-table {
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.price-pricetable-green .price-header {
+  padding: 20px 17px 4px;
+}
+
+.price-pricetable-green .price-features {
+  padding-top: 0px;
+  font-size: 14px;
+} 
+
+.price-pricetable-green .price-buy {
+  padding-bottom: 20px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.price-pricetable-green .btn {
+  margin: 0 auto;
+  padding: 6px 65px;
+  width: 100%;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) { 
+ 
+.price-pricetable-green .price-features {
+  font-size: 14px;
+}
+
+.price-pricetable-green .btn {
+  padding: 6px 35px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){ 
+
+.price-pricetable-light-green .price-cost {
+  font-size: 30px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : PriceTable / Price table green  ----------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Blognews / Blog Green  ----------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) {  
+
+.blog-green {
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+
+.blog-green .blog-title {
+  font-size: 15px;
+}
+
+.blog-green .posted-date {
+  font-size: 1em;
+}
+
+.blog-green .descrip {
+  font-size: 15px;
+}
+
+.blog-green .meta-info {
+  font-size: 15px;
+}
+
+.blog-blue .view-header,
+.blog-blue .blog-readmore {
+  text-align:center;
+}
+
+}
+ 
+ @media (min-width: 769px) and (max-width: 992px) { 
+
+.blog-green .blog-title {
+  font-size: 17px;
+}
+
+.blog-green .posted-date {
+  font-size: 1.1em;
+}
+
+} 
+/*--------------------------------------------------------------------------*/
+/*------------  End : Blognews / Blog Green  -------------------------------*/
+/*--------------------------------------------------------------------------*/

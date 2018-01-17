@@ -14,6 +14,5 @@ class Historico(models.Model):
     tipo = models.CharField(max_length = 12)
     usuario = models.ForeignKey(Usuario,on_delete=models.PROTECT)
     
-    
     def __str__(self):
         return self.nome

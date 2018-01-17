@@ -1,0 +1,1383 @@
+/* overrides the default bootstrap CSS */
+.btn,
+.form-control,
+.input-group-addon,
+.nav-tabs>li>a,
+.nav-pills>li>a,
+.breadcrumb,
+.pagination>li:last-child>a, 
+.pagination>li:last-child>span,
+.alert,
+.label,
+.progress,
+.container .jumbotron, 
+.container-fluid .jumbotron,
+.img-thumbnail,
+code ,
+pre,
+kbd ,
+.input-sm,
+.form-group-sm .form-control,
+.input-lg,
+.form-group-lg .form-control,
+.btn-link,
+.btn-lg,
+.btn-group-lg > .btn,
+.btn-sm,
+.btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn,
+.dropdown-menu,
+.btn-group-vertical > .btn:first-child:not(:last-child),
+.btn-group-vertical > .btn:last-child:not(:first-child),
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn,
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn,
+.input-group-addon,
+.input-group-addon.input-sm,
+.input-group-addon.input-lg,
+.nav-tabs > li > a,
+.nav-tabs.nav-justified > li > a  {
+  border-radius:0px;
+}
+.breadcrumb{
+  margin-bottom:0px;
+  padding: 8px 0;
+  
+}
+.dropdown-menu {
+  border-radius: 0px;
+  box-shadow: none;
+}
+.navbar-toggle {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a ,
+  .navbar,
+  .navbar-static-top,
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-toggle,
+  .navbar-toggle .icon-bar,
+  .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu,
+  .nav-pills > li > a,
+  .nav-tabs-justified > li > a   {
+    border-radius: 0px;
+  }
+}
+
+
+.breadcrumb,
+.pagination,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span ,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span,
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span,
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span,
+.pager li > a,
+.pager li > span,
+.label,
+.badge,
+.container .jumbotron,
+.container-fluid .jumbotron,
+.thumbnail,
+.alert ,
+.progress,
+.list-group-item:first-child,
+.list-group-item:last-child,
+.panel,
+.panel-heading,
+.panel-footer,
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child,
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child,
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel-group .panel,
+.well,
+.well-lg,
+.well-sm,
+.modal-content,
+.tooltip-inner,
+.popover,
+.popover-title,
+.carousel-indicators li {
+     border-radius: 0px;
+}
+.btn,
+.btn:hover,
+.alert,
+.panel-title,
+.list-group-item.active, 
+.list-group-item.active:hover, 
+.list-group-item.active:focus,
+.panel-primary>.panel-heading,
+.carousel-control.left,
+.carousel-control.right {
+  background-image:none;
+}
+
+/* common for all the designs */
+body {
+  font-family:roboto;
+}
+
+.breadcrumb > li + li::before {
+  content:none;
+}
+.breadcrumb li,
+.breadcrumb li.active {
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+/* dropdown menu */
+.navbar-nav .fa {
+  float: right;
+  margin-left: 7px;
+  padding-top: 0px;
+  font-size: 1.3em;
+}
+.dropdown:hover>.dropdown-menu {
+  display:block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.navbar-inverse #navigation {
+  border: none;
+  width: 300px;
+  float: right;
+  background: #48D89B;
+  padding: 15px;
+  margin-right: 15px;
+  padding-top: 0px;
+  margin-top: -20px;
+}
+.navbar-inverse .navbar-header {
+  float: none;
+}
+.navbar-inverse a .fa,
+.navbar-inverse .dropdown .fa {
+  display:none !important;
+}
+
+@media (max-width: 750px) { 
+
+.dropdown-menu {
+  position:relative;
+  display:block;
+  box-shadow: none;
+  border-radius: 0px;
+  width:100%;
+  background: transparent;
+  border:none;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 0;
+}
+
+#collapse-navigation {
+  max-height: 100%;
+}
+
+.navbar-nav li a.
+.navbar-nav > li > a {
+  padding: 10px;
+  font-weight:bold;
+}
+
+.navbar-nav > li > a:focus, 
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.active,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover,
+.navbar-nav li a.active,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a.active {
+  border-left:5px solid #ffffff;
+  color:#ffffff;
+  background-color:transparent;
+}
+
+.navbar-nav a .fa,
+.dropdown .fa {
+  display:none !important;
+}
+}
+
+.sidebar .nav > li > a {
+  font-size: 18px;
+  padding: 3px 10px;
+}
+.sidebar .block {
+  margin-bottom:10px;
+  
+}
+
+section.main-container {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+h1.page-title {
+  margin-top:0px;
+  font-size:34px;
+}
+section.main-container p {
+  font-size: 16px;
+  line-height: 170%;
+}
+ 
+
+
+.sidebar .block-content {
+  padding:10px;
+}
+.sidebar h2,
+.sidebar h3 {
+  margin: 0px;
+  padding:10px;
+  font-size: 22px;
+  
+}
+.article-block h2,
+.article-block h3{
+  padding-bottom:10px;
+}
+.underline {
+  border-bottom:1px solid;
+}
+
+.img-fullwidth {
+  width:100%;
+}
+.google-map-wrap {
+  overflow:hidden;
+  height:320px;
+  width:100%;
+  margin-bottom:20px;
+}
+#gmap_canvas {
+  height:320px;
+  width:100%;
+}
+
+.contact-page-v4  .google-map-wrap,
+.contact-page-v4 #gmap_canvas {
+  height:130px;
+}
+ul.contact-list li {
+  margin-bottom:5px;
+  padding:5px 0px;
+}
+ul.contact-list li .fa{
+  width:30px;
+}
+.follow-links li a {
+  font-size: 20px;
+}
+.follow-links {
+  margin-top:10px;
+}
+.follow-links.icon-border li a{
+  border: 1px solid;
+  padding: 0px 5px;
+  width: 30px;
+  display: block;
+  text-align: center;
+  height: 30px;
+}
+.follow-links.follow-texts li{
+  margin-bottom:3px;
+  padding:0px;
+  height:30px;
+}  
+.follow-links.follow-texts li a{
+  font-size:15px;
+  padding-left: 10px;
+}
+.follow-links.follow-texts li .fa{
+  width: 40px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 8px;
+}
+
+/*blog-page*/
+.blog-meta-data {
+  padding:10px 0px;
+}
+.blog-posted {
+  margin-left:20px;
+}
+.blog-comments {
+  margin-bottom:30px;
+}
+.comment-item {
+  margin-top:20px;
+}
+.comment-item .comment-item{
+  margin-left:60px;
+  
+}
+.comment-item>a {
+  margin-right:15px;
+}
+.blog-detail-v2 .blog-meta-data {
+  padding:5px 10px;
+  margin-top:10px;
+}
+.blog-detail-v2 .comment-heading {
+  padding:5px 10px;
+  border:1px dotted;
+  margin-bottom:5px;
+}
+.blog-detail-v3 .latest-blogs ul li {
+  clear: both;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+.blog-detail-v3 .latest-blogs ul li>a {
+  margin-right:10px;
+}
+ .content-light-blue {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.content-light-blue  .content-boxes .top-header {
+  margin-right: 15px;
+}
+
+.content-light-blue .content-boxes .top-header .title {
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+.content-light-blue .content-boxes .top-header .description {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.content-light-blue  .content-boxes .content-box {
+  border-top: 1px solid;
+  margin-right: 15px;
+  margin-top: 18px;
+  padding-top: 15px;
+}
+
+.content-light-blue  .content-boxes  .content-box  .icon-circle {
+  border-radius: 39px;
+  display: inline-block;
+  font-size: 2.6em;
+  height: 78px;
+  line-height: 80px;
+  text-align: center;
+  width: 78px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.content-light-blue .content-box  .title {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+.content-light-blue .content-box  .description {
+  font-size: 1.05em;
+  font-weight: normal;
+}
+
+.content-light-blue  .content-boxes  .content-lists  .icon-circle {
+  border-radius: 15px;
+  font-size: 1em;
+  height: 28px;
+  line-height: 30px;
+  margin-right: 10px;
+  width: 28px;
+}
+
+.content-light-blue .content-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.content-light-blue .content-box ul li {
+  font-size: 1.3em;
+  font-weight: normal;
+  list-style: outside none none;
+  padding-bottom: 20px;
+}
+.footer-green-medium {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 52px;
+}
+
+.footer-green-medium .footer-message {
+  padding-bottom: 3px;
+}
+
+.footer-green-medium .footer-message h2.title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.15em;
+  font-weight: normal;
+}
+
+.footer-green-medium .footer-message .block-content {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: left;
+  padding-right: 60px;
+  line-height: 1.6em;
+}
+
+.footer-green-medium .footer-message .block-content h4 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 5px;
+}  
+
+.footer-green-medium .footer-blocks {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-green-medium .footer-menu ul li {
+  background: transparent;
+}
+
+.footer-green-medium .footer-menu ul li a {
+  font-size: 16px;
+  background: transparent;
+  font-weight: lighter;
+  padding: 1px 0px;
+}  
+
+.footer-green-medium .footer-blocks .footer-menu .sidebar-menu {
+  padding-top: 10px;
+}
+
+.footer-green-medium .footer-menu ul li a:hover {
+  text-decoration: underline;
+}
+  
+.footer-green-medium .footer-blocks .title h2,
+.footer-green-medium .footer-blocks .block-title {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.footer-green-medium .footer-copyright {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-green-medium .footer-copyright h2.title  {
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}  
+
+.footer-green-medium .footer-copyright .block-content {
+  line-height: 2em;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.footer-green-medium .footer-copyright-menu ul li a {
+  padding-right: 14px;
+  font-size: 15px;
+  padding-top: 5px;
+  font-weight: lighter;
+}
+
+.footer-green-medium .footer-copyright-menu {
+  padding-right: 0px;
+}/*--------------------------------------------------------------------------*/
+/*------------  Begins : Header / Header Fresh way  ------------------------*/
+/*--------------------------------------------------------------------------*/ 
+.header-freshway-content {
+  background-image: url(
+  "images/css-header-header-fresh-way-main-background.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 580px;
+}  
+
+.header-freshway-menu nav .icon-text {
+  float: left;
+  font-size: 1.36em;
+  margin-right: 10px;
+}
+
+.header-freshway-menu nav .icon-bars {
+  float: right;
+  padding-top: 6px;
+}
+
+.header-freshway-menu .dropdown-menu {
+  display:none !important;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-toggle {
+  display: block;
+  visibility: visible;
+  border-radius: 0px;
+}
+
+.header-freshway-menu .navbar-collapse.collapse {
+  display: none !important;
+  visibility: visible;
+}
+
+.header-freshway-menu .navbar-collapse.in,
+.navbar-collapse.in .navbar-collapse{
+  display: block !important; 
+  border: none;
+  border-radius: 0px;
+  visibility: visible;
+}
+
+.header-freshway-content .main-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-freshway-menu .site-name-logo {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.header-freshway-menu nav.affix{
+  margin-top: 0px !important;
+  height: 70px;
+}
+
+.header-freshway-menu nav.affix #navigation disable{
+  margin-top: 10px;
+}
+.header-freshway-menu #nav {
+  max-height: 64px;
+}
+.inner-page .header-freshway-menu #nav {
+  margin-bottom:0px;
+}
+
+.header-freshway-menu .navbar-inverse #navigation {
+  min-width: 300px;
+  width: auto;
+  float: right;
+  padding-left: 0px;
+  z-index:10000;
+}
+
+.header-freshway-content  .main-block-inner {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.header-freshway-content  .main-desc{
+  margin-top: 50px;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+ 
+.header-freshway-content  .main-title {
+  font-size: 3em;
+  font-weight: normal;
+  border: 5px solid;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 50px;
+}
+
+.header-freshway-content  .email-field {
+  border-radius: 0px;
+  width: 30%;
+  margin-right: 0px;
+  border: 2px solid;
+  box-shadow: none;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.header-freshway-content  .subscribe-button {
+  border-radius: 0px;
+  border: 2px solid;
+  margin-left: -5px; 
+  text-shadow: none;
+  letter-spacing: .05em;
+  box-shadow: none;
+  height: 46px;
+}  
+
+.header-freshway-content  .main-signup-form-wrap {
+  margin-top: 20px;
+}
+
+.header-freshway-menu #navigation{
+  margin-top; 10px;
+}
+
+.header-freshway-menu .navbar-nav>li  {
+  margin-top: 15px;
+  float: none;
+}
+
+.header-freshway-menu .navbar-nav {
+  margin-top: 0px;
+  float: none !important;
+}
+
+.header-freshway-menu .navbar-nav>li>a {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-freshway-menu  .navbar-toggle {
+  border: 0;
+  border-radius: 0px;
+}
+
+.header-freshway-menu .navbar-inverse .navbar-scrolled  {
+  border: none;
+  background-image: none;
+  background: #1d967d;
+  margin-top: 0px;
+  border-radius: 0px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Header / Header Fresh way  ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+/* CSS from jquery-asProgress.js library*/
+.progress {
+  height: 20px;
+  padding: 1px;
+  border: 1px solid;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-image:none;
+}
+
+.progress__bar {
+  display: block;
+  height: 100%;
+}
+
+.progress__label {
+  float: right;
+  padding: 0 2px;
+  font-size: 12px;
+}
+
+.progress--radius {
+  border-radius: 2px;
+}
+
+.progress--round {
+  border-radius: 1000px;
+}
+
+.progress--radius .progress__bar,
+.progress--round .progress__bar {
+  border-radius: inherit;
+}
+
+.progress--small {
+  height: 15px;
+}
+
+.progress--large {
+  height: 10px;
+}
+
+.progress--striped .progress__bar {
+  background-size: 40px 40px;
+}
+/*custom*/
+.stat-stats-green-sea {
+  font-family: roboto;
+  padding-top: 25px;
+}
+
+.stat-stats-green-sea h2.title {
+  font-size: 37px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.stat-stats-green-sea .stat-label {  
+  padding-bottom: 5px;
+  font-size: 15px;
+  height: 35px;
+  padding-left: 5px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}  
+
+.stat-stats-green-sea .progress {
+  height: 40px;
+  padding: 0px;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  border-radius: 0px;
+  box-shadow: none;
+  background-image: none;
+}
+
+.stat-stats-green-sea  .stat-inner .progress__label {
+  float: left;
+  padding: 7px;
+   font-size: 15px;
+   font-weight: normal;
+}
+
+.stat-stats-green-sea .stat-stat{
+  padding-left: 0px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.stat-stats-green-sea .stat-stats{
+  padding-left: 0px;
+  margin-top: 18px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.stat-stats-green-sea .stat-running-number {  
+  font-size: 17px;
+  font-weight: normal;
+  float: right;
+  padding: 9px;
+  position: absolute;
+  right: 12px;
+}  
+
+.stat-stats-green-sea .progress__bar {
+  float: left;
+  padding: 9px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.stat-stats-green-sea .stat-inner {
+  padding: 0px;
+ }
+ 
+.stat-stats-green-sea .stat-desc {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 200%;
+  margin-left: 0;
+  margin-right: 0;
+}
+/*--------------------------------------------------------------------------*/
+/*--------------  Ends : Stats / stats green sea ---------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Testimonial / Testimonial grey black  -------------*/
+/*--------------------------------------------------------------------------*/
+.testimonial-grey-black {
+  font-family: roboto;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.testimonial-grey-black h2 { 
+  font-size: 25px;
+  font-weight: normal;
+  padding-bottom: 20px;
+} 
+ 
+.testimonial-grey-black .carousel-indicators {
+  display: none;
+}
+
+.testimonial-grey-black .testi-body {
+  display: block;
+  padding: 13px;
+  font-weight: normal;
+  float: left;
+  width: 97%;
+  font-size: 17px;
+  line-height: 160%;
+}
+
+.testimonial-grey-black .testi-name {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.testimonial-grey-black .testi-arrow {
+  float: left;
+  margin-left: -2px;
+  padding-top: 25px;
+  font-size: 150%;
+}  
+
+.testimonial-grey-black .testi-name-designation {
+  padding-top: 28px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.testimonial-grey-black .testi-designation {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.testimonial-grey-black .carousel-control  {
+  margin-top: -9px;
+  text-shadow: none;
+  font-size: 21px;
+}
+
+.testimonial-grey-black  .carousel-control.right {
+  right: 0px;
+  left: auto;
+  width: 15px;
+  text-align: center;
+}
+
+.testimonial-grey-black  .carousel-control.left {
+  right: 10px;
+  left: auto;
+  width: 15px;
+  text-align: center;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Testimonial / Testimonial grey black  ----------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*----------------------  Begins : Team / Team Green -----------------------*/
+/*--------------------------------------------------------------------------*/
+.team-green {
+  font-family: roboto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.team-green .team-header {
+  margin-bottom: 26px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+  float: left; 
+}
+
+.team-green .team-header h2 {
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 30px 15px;
+}
+
+.team-green .team-header .desc {
+  padding: 11px 15px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.team-green .item {
+  margin-bottom: 30px;
+}
+
+.team-green .team-image img {
+  width: 100%;
+  height: auto;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.team-green .item:hover .team-image img {
+  filter: none;
+  -webkit-filter:none;
+}
+
+.team-green .team-content {
+  padding: 15px;
+  padding-top: 11px;
+  padding-bottom: 8px;
+}
+
+.team-green .team-name-designation {
+  width: 100%;
+  display: block;
+}
+
+.team-green .team-name{
+  font-size: 24px;
+}
+
+.team-green .team-body {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.team-green .team-name-designation {
+  margin-bottom: 5px;
+}
+
+.team-green .team-name {
+  font-size: 26px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.team-green .team-designation {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.team-green .team-social {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.team-green .team-social ul{
+  padding: 0px 0px;
+}
+
+.team-green .team-social li {
+  display: inline-block;
+  width: 21%;
+}
+
+.team-green .team-social a{
+  display: inline-block;
+  font-size: 1.2em;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 4px;
+}
+
+.team-green .team-social a .fa{
+  padding-top: 7px;
+}
+
+.team-green .carousel-inner {
+  width: auto;
+}
+
+.mobile-carousel-controls {
+  padding: 15px;
+}
+
+.mobile-carousel-controls span {
+  width: 50%;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------  End : Team / Team Green  -------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Contact / Contact Green  --------------------------*/
+/*--------------------------------------------------------------------------*/
+.contact-green {
+  padding-top: 45px;
+  padding-bottom: 40px;
+  font-family: roboto;
+}
+
+.contact-green  .desc{
+  line-height: 150%;
+  font-size: 17px;
+  font-weight: normal;
+} 
+
+.contact-green .contact-green-form{
+  margin-top: 30px;
+}
+
+.contact-green h4 {
+  padding-bottom: 10px;
+}
+
+.contact-green .form-group {
+  margin-top: 25px;
+} 
+
+.contact-green .form-control {
+  border: 1px solid;
+}
+
+.contact-green .btn {
+  color: #29CB71;
+  float: right;
+  font-size: 17px;
+  padding: 2px 15px;
+  margin-top: 3px;
+}
+
+.contact-green h3{
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+
+.contact-green .google-map-wrap {
+  overflow: hidden;
+  height: 215px;
+  width: 90%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-green .google-map-wrap  #gmap_canvas{
+  height: 215px;
+  width: 100%;
+}
+
+.contact-green .google-map-wrap  #gmap_canvas img {
+  max-width: none!important;
+  background: none!important
+}
+
+.contact-green address span{
+  padding-left: 0;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.contact-green address span .fa {
+  padding-right: 10px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Contact / Contact Green  -----------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : PriceTable / Price table green  -------------------*/
+/*--------------------------------------------------------------------------*/
+.price-pricetable-green{
+  font-family:roboto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.price-pricetable-green h2 {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.price-pricetable-green h3 {
+  margin: 0px;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.price-pricetable-green .price-desc {
+  font-size: 16px;
+  margin-top: 13px;
+  font-weight: lighter;
+}
+
+.price-pricetable-green .price-table {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.price-pricetable-green .price-box {  
+  margin-bottom: 35px;
+}
+
+.price-pricetable-green .price-header{
+  padding: 23px 40px;
+}
+
+.price-pricetable-green .price-plan-desc {
+  font-size: 12px;
+}
+
+.price-pricetable-green .price-features {
+  padding-top: 23px;
+  font-weight: lighter;
+  font-size: 15px;
+} 
+ 
+.price-pricetable-green .btn {
+  background-image: none;
+  text-shadow: none;
+  border: none;
+  font-size: 20px;
+  padding: 6px 51px;
+  border: 2px solid;
+}
+
+.price-pricetable-green .price-features-list li {
+  width: 49%;
+  padding-bottom: 12px;
+
+}
+.price-pricetable-green .price-features-list li .fa {
+  padding-right: 5px;
+}  
+
+.price-pricetable-green .price-buy {
+  text-align: right;
+  padding-top: 53px;
+  padding-right: 40px;
+}
+
+.price-pricetable-green  .price-cost {
+  font-weight: normal;
+  font-size: 40px;
+  
+}
+.price-pricetable-green .price-cost span{
+  font-size: 18px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : PriceTable / Price table green  ----------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Blognews / Blog Green  ----------------------------*/
+/*--------------------------------------------------------------------------*/
+.blog-green {
+  font-family: 'Roboto';
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.blog-green .blog-item {
+   margin-bottom:0px;
+   border: 1px solid;
+}
+
+.blog-green .blog-box-item-inner {
+  overflow: hidden;
+}
+
+.blog-green  h2 {
+  font-size: 35px
+}
+
+.blog-green .blog-readmore a{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.blog-green .blog-title {
+  font-size: 21px;
+  font-weight: normal;
+  vertical-align: middle;
+  line-height: 56px;
+  display: inline-block;
+  height: 50px;
+  max-height: 100%;
+}
+
+.blog-green .posted-date {
+  height: 100%;
+  font-size: 1.5em;
+  line-height: 23px;
+  padding-top: 4px;
+}
+
+.blog-green .blog-image img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-green .blog-image {
+  display: block;
+}
+
+.blog-green .blog-date-title {
+  height: 50px;
+  margin-left: 0px;
+  display: block;
+}
+
+.blog-green .descrip {
+  padding-left: 30px;
+  padding-right: 20px;
+  display: block;
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.blog-green .author {
+  font-weight: normal;
+}
+
+.blog-green .comments-count {
+  font-weight: normal;
+}
+
+.blog-green .meta-info {
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.blog-green .mobile-carousel-controls {
+  padding: 15px;
+}
+
+.blog-green .mobile-carousel-controls span {
+  width: 50%;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.blog-green .carousel-inner {
+  width:auto;
+}
+
+.blog-green .meta-info {
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.blog-green .mobile-carousel-inner .well {
+  background-color: transparent;
+  box-shadow: none;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Blognews / Blog Green  -------------------------------*/
+/*--------------------------------------------------------------------------*/

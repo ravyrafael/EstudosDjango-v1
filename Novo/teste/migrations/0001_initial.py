@@ -32,6 +32,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='historico',
             name='usuario',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='teste.Usuario'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='coreapp.Usuario'),
         ),
     ]
