@@ -15,4 +15,4 @@ class Historico(models.Model):
     usuario = models.ForeignKey(Usuario,on_delete=models.PROTECT)
     
     def __str__(self):
-        return self.nome
+        return self.name.encode('utf8')
